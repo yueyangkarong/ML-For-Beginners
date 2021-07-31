@@ -107,6 +107,8 @@ Scikit-learn使构建模型和评估它们的使用变得简单。它主要侧�
    ```
 
     在上面的代码中，你正在导入`matplottlib`、`numpy`，你正在从`sklearn`导入`datasets`、`linear_model`和`model_selection`。 `model_selection`用于将数据拆分为训练集和测试集。 
+    
+    如果导入matplotlib错误，并显示no odule named “matplotlib”，则需要在miniconda的虚拟环境中安装matplotlib,方法是输入命令：pip install matplotlib.然后在VS code中将notebook.ipynb重启，再输入import命令即可。
 
 ### 糖尿病数据集 
 
